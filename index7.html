@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="js/jquery.js"></script>
+    <link  rel="icon"   href="image/Logos y icono/TecnoPostal.png" type="image/png" />
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/compras.css">
+  </head>
+  <body>
+    <form action="" class="formulario">
+      <a href="index.html"><img src="image/Logos y icono/TecnoPostal.gif" class="imgLogo" /></a>
+
+      <h1 class="formulario__titulo">Tecnopostal</h1>
+      <h3 class="formulario__subtitulo">Registro de compra</h3>
+      <p class="formulario__parrafo">
+        Llene el formulario para registrar el pedido.
+      </p>
+<!--Nombre de la persona que encargara-->
+<label for="cliente" class="formulario__label">Indique el nombre de la personade encargo</label>
+<input
+  id="cliente"
+  type="text"
+  class="formulario__input"
+  placeholder="Indica cuál es tu nombre completo"
+/>
+<!--Fecha de entrega de producto-->
+<label for="fecha" class="formulario__label"
+>Indica la fecha de entrega</label
+>
+<input
+id="fecha"
+type="date"
+class="formulario__input"
+pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}"
+/> 
+<!---Hora de enetrega de producto-->
+<label for="hora" class="formulario__label"
+>Indica la hora de entrega de producto</label
+>
+<input id="hora" type="time" class="formulario__input" />
+
+<!--Modelo de equipo portatil-->
+<label for="portatil" class="formulario__label"
+>Indique modelo del portatil</label>
+      <select id="portatil" name="listaempleados" class="formulario__input">
+          <optioN> </optioN>
+        <option>Dell latitude e6400</option>
+        <option>Alienware</option>
+        <option>Dell inspiron</option>
+        <option>HP Pavilion - 15-cw1005la</option>
+        <option>HP EliteBook 8460P</option>
+        <option>Hp probook 6475b</option>
+        <option>Lenovo thinkpad l450a</option>
+        <option>Ideapad 100-14iby</option>
+        <option>Lenovo Legio y560</option>
+        <option>Sony Vaio SVE14115FLW</option>
+        <option>Vaio sony pcg-31311u</option>
+        <option>Vaio sony sx14</option>
+        <option>Asus n551</option>
+        <option>Asus n751</option>
+        <option>Asus STRIX G531GT-BQ095T</option>
+      </select>
+<!--Modelo de equipo arrendamiento-->
+       <label for="arrenda" class="formulario__label"
+        >Indique el modelo de arrendamiento</label
+      >
+      <select id="arrenda" name="listaempleados" class="formulario__input">
+          <option></option>
+        <option>Optiplex 9020</option>
+        <option>Optiplex 7080</option>
+        <option>Optiplex 9000</option>
+        <option>Thinkcenter m73</option>
+        <option>Thinkcenter m82</option>
+        <option>Thinkcenter m720s</option>
+        <option>Thinkcenter m720</option>
+        <option>Prodesk 600 g1</option>
+        <option>Prodesk 400 g6</option>
+        <option>Prodesk 400 g3</option>
+        <option>Elitedesk 800 g1</option>
+      </select>
+      <!--Cantidad e arrendamiento-->
+      <label for="cantidad" class="formulario__label">Ingrese la cantidad de equipos</label>
+      <input
+        id="cantidad"
+        type="text"
+        class="formulario__input"
+        placeholder="Cantidad de equipos"
+      />
+<!--Modelo de equipo Segunda mano-->
+<label for="mano" class="formulario__label"
+        >Indique modelo de segunda mano</label
+      >
+      <select id="mano" name="listaempleados" class="formulario__input">
+          <option></option>
+        <option>Optiplex 9020</option>
+        <option>Elitedesk 800 g1</option>
+        <option>HP Pavilion - 15-cw1005la</option>
+        <option>Dell latitude e6400</option>
+      </select>
+      <!--Software Solicitado-->
+       <label for="software" class="formulario__label"
+        >Indique nombre de software</label
+      >
+      <select id="software" name="listaempleados" class="formulario__input">
+        <option></option>
+        <option>Avast Premiun</option>
+        <option value="">ESTE Nodo 32</option>
+        <option value="">Bitdefender antivirus plus </option>
+        <option value="">McAffe total protección</option>
+        <option value="">Kasperky antivirus</option>
+        <option value="">Windows 10</option>
+        <option value="">Windows 8</option>
+        <option value="">Windows 8.1</option>
+        <option value="">Office 2016 professional plus</option>
+        <option value="">Office 2019 profeccional plus</option>
+        <option value="">Office 365 personal</option>
+      </select>
+      
+    <!--Formato de pago-->
+      <label for="pago" class="formulario__label"
+        >Forma de pago</label
+      >
+      <select id="pago" name="listaservicios" class="formulario__input">
+        <option></option>
+        <option>Tarjeta de Credito(12 meses sin intereses)</option>
+        <option>Efectivo</option>
+        <option>Tarjeta de debito</option>
+      </select>
+  
+
+      <div id="respuesta"></div>
+      
+      <button id="submit" class="formulario__submit">Enviar a WhatsApp</button>
+      <br><br>
+      <a href="index2.html"><-----Regresar a Catalogo</a>
+    </form>
+    <script src="js/compras.js"></script>
+  </body>
+</html>
