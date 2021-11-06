@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Roboto:wght@300&display=swap'); 
+#particles-js
+{
+  background: url(../image/Banner/principal.jpg);
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+  width: 100%;
+}
+.ancho-letras
+{
+  top: 200px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+}
+.letras-slider
+{
+  width: 80%;
+  margin: auto;
+}
+.letras-slider h1
+{
+  color:#fff;
+ font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+}
+.letras-slider p 
+{
+  color: #fff;
+  font-size: 20px;
+  
+  font-family: 'Roboto', sans-serif;
+  padding-top: 50px;
+}
+

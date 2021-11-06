@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+img
+{
+    width: 70%;
+    max-width: 70%;
+}
+@media only screen and (max-width: el tamaño es en pixeles){
+img 
+{
+    width: 100%;
+    max-width: 100%;
+}
+}
+.caja
+{
+    border:2px solid #000;
+    box-sizing: border-box;
+    color:#444;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: capitalize;
+    display: inline-block;
+    margin: 0.5%;
+    padding: 1em;
+    vertical-align: top;
+    width: 30.9%;
+    background: rgba(79, 171, 202, 0.4);
+    border-radius: 20px;
+}
+h1
+{
+    text-align: center;
+    text-transform: uppercase;
+     font-family: 'Roboto', sans-serif;
+     font-size: 50px;
+    font-weight: bold;
+    color: rgb(230, 225, 225);
+}
+p
+{
+    color: rgb(230, 225, 225);
+    font-family: 'Roboto', sans-serif;
+}
+.fa-shopping-cart
+{
+    color: #444;
+}
+.fa-shopping-cart:hover
+{
+    color: #fff;
+}
+.comenta
+{
+     font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+body 
+{
+    background: url(../image/fondos/Animated\ Shape.svg);
+}
+::-webkit-scrollbar
+{
+    width: 10px;
+}
+::-webkit-scrollbar-track
+{
+    background:#444;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb
+{
+    background: #fff;
+    border-radius: 20px;
+}

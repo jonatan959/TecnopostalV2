@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*
+{
+     box-sizing: border-box;
+}
+h1,h2,h4,h5,h6{
+    text-transform: uppercase;
+    color: #444;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+h2{
+    font-size: 20px;
+    color: #333;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    padding-top: 20px;
+    font-weight: normal;
+    color: #777;
+}
+h4 
+{
+    margin-top: 15px;
+    font-size: 16px;
+}
+h5
+{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    font-weight: normal;
+    padding: 10px 0;
+    font-size: 12px;
+}
+p{
+    color:#888; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+.wap
+{
+    width: 90%;
+    margin: auto;
+}
+.bienvenidos
+{
+    margin-top: 50px;
+    text-align:center;
+}
+.contenedor-columnas
+{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.columnas
+{
+    width: 33.333%;
+    float: left;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin: auto;
+}
+.columnas i 
+{
+    float: left;
+    padding: 20px;
+    color:#777; 
+}
+.columnas h4 
+{
+    padding-bottom: 20px;
+}
+.columnas img {
+    width: 100%;
+
+}
+.banner-1
+{
+    width: 100%;
+    background: cornflowerblue;
+    clear: both;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    text-align:center;
+    box-sizing: border-box;
+}
+.banner-1 h3 
+{
+    color: #fff;
+    font-size: 15px;
+}
+.banner-1 a 
+{
+    text-decoration: none ;
+    margin-left: 20px;
+    font-weight: bold;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+.banner-1:hover 
+{
+    background: #444;
+    transition: .8s;
+}
+.banner-2
+{
+     margin-top: 50px;
+    background: url(../image/Banner/banner.jpg);
+    float: left;
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat; /*No se repita*/
+    background-size: cover; /*imagen de fondo al 10 de ancho*/
+    background-attachment: fixed; /*posicion fija de imagen*/
+    text-align:center;
+}
+.banner-2 h3
+{
+    background: rgba(0, 0 ,0, .5);
+    color: #fff;
+    font-size: 15px;
+    height: 100%;
+    padding-top: 6%;
+}
+
+.banner-2 a 
+{
+    text-decoration: none ;
+    margin-left: 20px;
+    font-weight: bold;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}

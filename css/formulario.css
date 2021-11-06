@@ -1,0 +1,47 @@
+.doscolum
+{
+    margin-top: 50px;
+
+}
+.formulario
+{
+    float: left;
+    width: 50%;
+    margin: auto;
+    color: #999;
+}
+.caja1
+{
+    width: 250px;
+    height: 40px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 14px;
+}
+.caja2
+{
+    width: 545px;
+    height: 100px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 14px;
+}
+.corre
+{
+    margin: 20px;
+    padding: 10px;
+}
+::-webkit-scrollbar
+{
+    width: 10px;
+}
+::-webkit-scrollbar-track
+{
+    background:#444;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb
+{
+    background: #fff;
+    border-radius: 20px;
+}

@@ -1,0 +1,118 @@
+.tabla
+{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.arrend
+{
+    float:left;
+    width: 25%;
+    margin-top: 20px;
+}
+.arrend-des
+{
+    float: left;
+    width: 25%;
+    margin-top: 10px;
+}
+.cajapre
+{
+    border: 1px solid #5c6552;
+    background: #30353c;
+}
+.icono
+{
+    color: #85c34a;
+    padding-top: 20px;
+    font-size: 3em;
+    padding-bottom: 10px;
+}
+.cajapre h4
+{
+    color: #fff;
+}
+.precio1
+{
+    color: #85c34a;
+    font-size: 50px;
+    font-weight: bold;
+}
+/*.cajapre:hover
+{
+    border: 5px solid #85c34a;
+    transition: .5s;
+}*/
+.peso
+{
+    font-size: 10px;
+    vertical-align: super;
+}
+.mes
+{
+    font-size: 15px;
+    color: #999;
+    vertical-align: text-bottom;
+}
+.lista
+{
+    list-style: none;
+    padding: 10px;
+    color: #81867d;
+    padding-bottom: 50px;
+
+}
+.espacio
+{
+    padding: 0 25px;
+    font-size: 15px;
+}
+.botoncontra 
+{
+    margin-bottom: 25px;
+}
+.contra{
+    background: #85c34a;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 16px 50px;
+    letter-spacing: 1px;
+    width: 90%;
+}
+.contra:hover
+{
+   background: #5c6552;
+   transition: .5s; 
+}
+.destaca
+{
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .9);
+    z-index: 500;
+}
+.destaca h4 
+{
+    color: #30353c;
+    font-size: 30px;
+}
+.destaca .icono
+{
+    font-size: 4em;
+}
+.destaca .contra
+{
+    background: #30353c;
+}
+.fa-star
+{
+    color: #30353c;
+}
+.uno 
+{
+    border-radius: 200px;
+    width: 100px;
+    height: 100px;
+}
